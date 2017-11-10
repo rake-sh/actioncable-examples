@@ -1,5 +1,6 @@
-production:
-  url: redis://localhost:6379
+production:  
+  adapter: redis
+  url: redis://redistogo:c5e7ae52523449ef022fbd177b63bd1b@crestfish.redistogo.com:10736/
 
 local: &local
   url: redis://localhost:6379
